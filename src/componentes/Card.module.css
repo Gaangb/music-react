@@ -1,0 +1,33 @@
+.principal_geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../public/pattern-background-desktop.svg");
+    background-size:cover;
+    text-align: center;
+}
+
+.geral{
+    background-color: aqua;
+    height: 80vh;
+    width: 33vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header img{
+    width: 33vw;
+    border-radius: 15px 15px 0 0;
+}
+
+.textInfo{
+    display: flex;
+    
+    width: 80%;
+    
+}
