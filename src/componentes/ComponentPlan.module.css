@@ -1,0 +1,23 @@
+.componentPlan{
+    background-color: hsl(225, 100%, 94%);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.price{
+    text-align: left;
+    width: 90%;
+    margin-left: 1.5vw;
+}
+
+.price :first-of-type{
+    font-weight: bold;
+}
+
+p:nth-child(3n-1) {
+    color: rgb(160, 160, 160);
+}

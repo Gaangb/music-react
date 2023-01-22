@@ -1,3 +1,7 @@
+html{
+    overflow: hidden;
+}
+
 .principal_geral{
     display: flex;
     justify-content: center;
@@ -10,7 +14,7 @@
 }
 
 .geral{
-    background-color: aqua;
+    background-color: hsl(225, 100%, 98%);
     height: 80vh;
     width: 33vw;
     border-radius: 15px;
@@ -20,14 +24,33 @@
     align-items: center;
 }
 
-.header img{
-    width: 33vw;
-    border-radius: 15px 15px 0 0;
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    height: 100%;
+    justify-content: space-around;
 }
 
-.textInfo{
-    display: flex;
-    
-    width: 80%;
-    
+.buttons :first-of-type{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2vh;
+    box-shadow: 2px 15px hsl(225, 100%, 95%);
+}
+
+.buttons :nth-child(2){
+    background-color: hsl(225, 100%, 98%);
+    color: grey;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1vh;
+}
+
+.buttons button{
+    font-weight: 500;
 }

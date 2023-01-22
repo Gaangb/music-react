@@ -1,20 +1,19 @@
 import styles from './Card.module.css'
-import topo from './illustration-hero.svg'
+import Header from './Header'
+import CardInformation from './CardInformation'
+import ComponentPlan from './ComponentPlan'
+import PaymentButton from './Buttons/PaymentButton'
+import CancelButton from './Buttons/CancelButton'
 const Card = () => {
     return (
         <div className={styles.principal_geral}>
             <div className={styles.geral}>
-                <header className={styles.header}>
-                    <img src={topo} alt="" />
-                </header>
-                <div>
-                    <h1>Order Summary</h1>
-                </div>
-                <div className={styles.textInfo}>
-                    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-                </div>
-                <div>
-                    
+                <Header/>
+                <CardInformation/>  
+                <ComponentPlan/>
+                <div className={styles.buttons}>
+                    <PaymentButton/>
+                    <CancelButton/>
                 </div>
             </div>
         </div>
