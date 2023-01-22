@@ -1,9 +1,9 @@
 import styles from './Card.module.css'
-import Header from './Header'
-import CardInformation from './CardInformation'
-import ComponentPlan from './ComponentPlan'
-import PaymentButton from './Buttons/PaymentButton'
-import CancelButton from './Buttons/CancelButton'
+import Header from './header/Header'
+import CardInformation from './cardInformation/CardInformation'
+import ComponentPlan from './componentPlan/ComponentPlan'
+import PaymentButton from './buttons/PaymentButton'
+import CancelButton from './buttons/CancelButton'
 const Card = () => {
     return (
         <div className={styles.principal_geral}>
